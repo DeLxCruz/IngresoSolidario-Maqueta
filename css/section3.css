@@ -34,6 +34,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 5rem;
+    max-width: 1315px;
 }
 
 .section3__div-img-img {
