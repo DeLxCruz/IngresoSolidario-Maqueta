@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header__nav {
+    background-color: var(--azul-header);
+    padding: 2rem 4rem 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.header__nav-img {
+    height: 50px;
+}
+
+.header__nav-btn {
+    border-radius: 2rem;
+    border: none;
+    color: black;
+    background-color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+.header__nav-btn a {
+    color: black;
+    text-decoration: none;
+}
+
+.header__nav-btn:hover {
+    background-color: #fff;
+    color: var(--azul-header);
+    cursor: pointer;
+}

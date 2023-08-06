@@ -1,0 +1,95 @@
+.section1 {
+    margin-top: 119px;
+    background-image: url(../assets/img/Fondo.png);
+    height: calc(100vh - 119px);
+    background-size: cover;
+}
+
+.section1__div {
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1__form {
+    border-radius: 1rem;
+    background-color: white;
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.section1__form-head {
+    width: 420px;
+}
+
+.section1__form-title {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.section1__form-text {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.section1__form-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+.section1__form-input {
+    width: 450px;
+    padding: .5rem;
+    line-height: 1.3rem;
+    border: 1px solid #A1A1A1;
+    border-radius: 4px;
+}
+
+.section1__form-btn {
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    background-color: var(--azul-content);
+    padding: .8rem 4rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.section1__text {
+    margin-top: 6rem;
+    width: 600px;
+    display: grid;
+    place-items: center;
+}
+
+.section1__text-title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.section1__text-sub {
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.section1__text-btn {
+    margin-top: .25rem;
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    background-color: var(--azul-content);
+    padding: .8rem 2.75rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
